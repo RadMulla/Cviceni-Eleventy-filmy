@@ -1,8 +1,8 @@
 <ul>
   	{% for film in filmy %}
-  		<li>{{ film.nazev }}</li>
+  		<li>
+          <a href="/film/{{ film.nazev | slug }}">{{ film.nazev }}</a>
+        </li>
   	{% endfor %}
 </ul>
 
-
-<a href="/film/{{ film.nazev | slug }}">{{ film.nazev }}</a>
