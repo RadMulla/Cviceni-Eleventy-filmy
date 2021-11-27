@@ -1,0 +1,17 @@
+<footer class="paticka">
+<h3>Podobné weby</h3>
+    <ul class="seznam-paticka">
+        {% for info in podobneWeby %}
+  		    <li>
+                <a href="{{ info.adresa | slug }}">{{ info.nazev }}</a>
+             </li>
+  	    {% endfor %}
+
+    </ul>
+
+<h3>Obecné</h3>
+    <ul class="seznam-paticka-obecne">
+
+    
+    </ul>
+</footer>
