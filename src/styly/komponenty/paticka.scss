@@ -1,15 +1,36 @@
-h3 {
-    padding: 0 20% 0 20%;
-}
-
 .paticka {
-    background-color: rgb(230, 228, 228);
-    color: black;
-    padding: 15px 0 15px 0;
-
+    padding: 30px 20% 30px 20%;
+    display: flex;
+    background-color: rgb(248, 245, 245);   
 }
 
-.seznam-paticka,
-.seznam-paticka-obecne {
-    padding: 0 21% 10px 21%;
+.paticka-1 {
+    margin: 0 10% 0 0;
+}
+
+.seznam-paticka-1 a:link,
+.seznam-paticka-2 a:link,
+.seznam-paticka-1 a:visited,
+.seznam-paticka-2 a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.seznam-paticka-1 a:focus,
+.seznam-paticka-2 a:focus,
+.seznam-paticka-1 a:active,
+.seznam-paticka-2 a:active,
+.seznam-paticka-1 a:hover,
+.seznam-paticka-2 a:hover {
+    text-decoration: underline;
+    color: black;  
+}
+
+.polozky-paticka {
+    list-style-type: none;
+}
+
+.seznam-paticka-1,
+.seznam-paticka-2 {
+    margin: 0 0 0 -45px;
 }

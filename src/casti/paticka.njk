@@ -1,20 +1,32 @@
 <footer class="paticka">
-<h3>Podobné weby</h3>
-    <ul class="seznam-paticka">
-        {% for info in podobneWeby %}
-  		    <li>
-                <a href="{{ info.adresa | slug }}">{{ info.nazev }}</a>
-             </li>
-  	    {% endfor %}
+    <div class="paticka-1">
+        <h3 class="nadpis-paticka">Podobné weby</h3>
+            <ul class="seznam-paticka-1">
+                {% for info in podobneWeby %}
+  		            <li class="polozky-paticka">
+                        <a class="polozky-paticka" href="{{ info.adresa | slug }}">{{ info.nazev }}</a>
+                    </li>
+  	            {% endfor %}
+            </ul>
 
-    </ul>
+    </div>
 
-<h3>Obecné</h3>
-    <ul class="seznam-paticka-obecne">
-        {% for info in puvodDat %}
-  		    <li>
-                <a href="{{ info.popis | slug }}">{{ info.nazev }}</a>
-            </li>
-  	    {% endfor %}
+    <div class="paticka-2">
+        <h3 class="nadpis-paticka">Obecné</h3>
+            <ul class="seznam-paticka-2">
+                <li class="polozky-paticka"> 
+                {% for puvod-dat in puvodDat %}
+                    <a href="{{ data.nazev | slug }}" class="data-nazev">{{ data.nazev }}</a>    
+                {% endfor %}
+                </li>
+                <li class="polozky-paticka">
+                    <a href="https://www.11ty.dev/">Elementy dokumentace</a>
+                </li>
+                <li class="polozky-paticka">
+                    <a href="https://github.com/Czechitas-podklady-WEB/Cviceni-Eleventy-filmy">Zadání cvičení</a>
+                </li>
+            </ul>
+    </div>
 </footer>
+
 

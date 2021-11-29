@@ -1,16 +1,14 @@
 [
     {
         "nazev": "Původ dat",
-        "popis": {
-            "text": "Data byla převzata z webu www.csfd.cz za účelem využití jako zkušební obsah pro výuku práce s nástrojem Eleventy. Smyslem fiktivního webu FILMY.cz není konkurovat podobným filmovým databázím včetně csfd.cz."
-        }
-    },
-    {
-        "nazev": "Eleventy dokumentace",
-        "popis": "https://www.11ty.dev/"
-    },
-    {
-        "nazev": "Zadání cvičení",
-        "popis": "https://github.com/Czechitas-podklady-WEB/Cviceni-Eleventy-filmy"
+        "obsah": {
+            "text1": "Data byla převzata z webu",
+            "jmeno1": "www.csfd.cz",
+            "odkaz1": "https://www.csfd.cz/",
+            "text2": "za účelem využití jako zkušební obsah pro výuku práce s nástrojem",
+            "jmeno2": "Eleventy",
+            "odkaz2": "https://www.11ty.dev/",
+            "text3": ". Smyslem fiktivního webu FILMY.cz není konkurovat podobným filmovým databázím včetně csfd.cz."
+        }     
     }
 ]

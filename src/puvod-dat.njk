@@ -3,12 +3,10 @@ layout: zakladni
 pagination:
     data: puvodDat
     size: 1
-    alias: info
-permalink: "/info/{{ info.nazev | slug }}/"
+    alias: data
+permalink: "/data/{{ data.nazev | slug }}/"
 ---
 
-<h2>{{ info.nazev }}</h2>
+<h3>Původ dat</h3>
 
-
-
-<p>Data byla převzata z webu www.csfd.cz za účelem využití jako zkušební obsah pro výuku práce s nástrojem Eleventy. Smyslem fiktivního webu FILMY.cz není konkurovat podobným filmovým databázím včetně csfd.cz.</p>
+<h3 class="data-nazev">{{ data.nazev }}</h3>

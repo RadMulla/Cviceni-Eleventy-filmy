@@ -1,6 +1,6 @@
 <ul class="seznam-filmy">
   	{% for film in filmy %}
-  		<li>
+  		<li class="filmy-poradi">
           <a href="/film/{{ film.nazev | slug }}">{{ film.nazev }}</a>
         </li>
   	{% endfor %}

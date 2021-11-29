@@ -1,0 +1,40 @@
+.detail-filmu {
+    padding: 0 0 0 20%;
+    max-width: 800px;    
+}
+
+.nazev-filmu {
+    margin: 10px 0 10px -21%;
+}
+
+.vypis {
+    display: flex;
+    margin: 0 0 0 -45px;
+}
+
+.polozka-vypis-1,
+.polozka-vypis-2 {
+    list-style-type: none;
+}
+
+.polozka-vypis-1 {
+    margin: -15px 0 0 0;
+}
+
+.polozka-vypis-2 {
+    margin: -10px 0 0 -25px;
+}
+
+.obsah-autor-filmu {
+    font-size: 17px;
+    font-weight: 350;
+}
+
+.autor-filmu {
+    font-style: italic;
+}
+
+.obsah-autor-filmu a:link,
+.obsah-autor-filmu a:visited {
+    color:cornflowerblue;
+}

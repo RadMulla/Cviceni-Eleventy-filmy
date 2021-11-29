@@ -1,12 +1,13 @@
 h1 {
     max-width: 800px;
-    padding: 10px 20% 10px 20%;
+    padding: 10px 0 10px 20%;
 }
 
 li {
     max-width: 800px;
     font-family: 'Roboto', sans-serif;
     margin: 5px 5px 5px 5px;
+    list-style-type: square;
     
 }
 
@@ -14,3 +15,18 @@ li {
     padding: 0 21% 10px 21%;
     color: rgb(37, 117, 192);
 }
+
+.seznam-filmy a:link,
+.seznam-filmy a:visited {
+    text-decoration: none;
+    color: rgb(37, 117, 192);
+    
+}
+
+.seznam-filmy a:hover,
+.seznam-filmy a:focus,
+.seznam-filmy a:active {
+    text-decoration: underline;
+    color: rgb(37, 117, 192);
+}
+
