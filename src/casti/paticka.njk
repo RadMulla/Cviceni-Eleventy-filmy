@@ -15,7 +15,7 @@
         <h3 class="nadpis-paticka">Obecné</h3>
             <ul class="seznam-paticka-2">
                 <li class="polozky-paticka"> 
-                {% for puvod-dat in puvodDat %}
+                {% for data in puvodDat %}
                     <a href="{{ data.nazev | slug }}" class="data-nazev">{{ data.nazev }}</a>    
                 {% endfor %}
                 </li>
@@ -28,5 +28,3 @@
             </ul>
     </div>
 </footer>
-
-
